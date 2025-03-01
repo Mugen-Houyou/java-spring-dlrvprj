@@ -1,4 +1,4 @@
-package com.gabe.dlrvprjgroup.gabedlrvapi.account.config.swagger;
+package com.gabe.dlrvprjgroup.gabedlrvapi.config.swagger;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.swagger.v3.core.jackson.ModelResolver;

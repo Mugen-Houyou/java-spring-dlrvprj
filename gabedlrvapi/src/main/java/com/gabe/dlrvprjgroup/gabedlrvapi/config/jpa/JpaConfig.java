@@ -1,4 +1,4 @@
-package com.gabe.dlrvprjgroup.gabedlrvapi.account.config.jpa;
+package com.gabe.dlrvprjgroup.gabedlrvapi.config.jpa;
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Configuration;

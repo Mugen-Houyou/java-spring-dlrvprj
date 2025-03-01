@@ -1,4 +1,4 @@
-package com.gabe.dlrvprjgroup.gabedlrvapi.account.config.objectmapper;
+package com.gabe.dlrvprjgroup.gabedlrvapi.config.objectmapper;
 
 import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
