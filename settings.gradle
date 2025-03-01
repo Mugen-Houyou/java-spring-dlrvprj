@@ -1,0 +1,4 @@
+rootProject.name = 'dlrvprjarti'
+include 'gabedlrvapi' // 모듈 이름과 일치해야 함.
+include 'gabedlrvdb' // 모듈 이름과 일치해야 함.
+

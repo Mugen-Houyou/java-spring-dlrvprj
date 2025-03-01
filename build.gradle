@@ -1,0 +1,44 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.4.3'
+	id 'io.spring.dependency-management' version '1.1.7'
+}
+
+//group = 'com.gabe.dlrvprjgroup'
+//version = '0.0.1-SNAPSHOT'
+
+// 나의 하위의 모든 프로젝트는 allprojects{}의 내용을 따라라.
+allprojects{
+
+	repositories {
+		mavenCentral()
+	}
+
+}
+
+bootJar	{
+	enabled = false
+}
+
+jar {
+	enabled = false
+}
+
+
+
+//
+//java {
+//	toolchain {
+//		languageVersion = JavaLanguageVersion.of(21)
+//	}
+//}
+//
+//dependencies {
+//	implementation 'org.springframework.boot:spring-boot-starter'
+//	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+//	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+//}
+//
+//tasks.named('test') {
+//	useJUnitPlatform()
+//}
